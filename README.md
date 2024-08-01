@@ -1,9 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pricing Plans Component
+![Macbook-Air-localhost (1)](https://github.com/user-attachments/assets/0dc0d797-7242-465c-94e2-504b5304e4b7)
 
-## Getting Started
+## Deploy: 
+- https://subscriptionplansui-production.up.railway.app/
 
-First, run the development server:
+## Overview
 
+This project includes a dynamic pricing plans component for displaying various subscription options. It features three different plans: Basic, Advanced, and Business. The component allows users to switch between monthly and yearly pricing, showcasing the features and benefits of each plan.
+
+## Features
+
+- **Responsive Design**: Ensures that the pricing plans are displayed optimally on all devices.
+- **Dynamic Pricing**: Adjusts pricing based on the selected plan (monthly or yearly).
+- **Feature Display**: Highlights the features available in each plan.
+- **Active Plan Highlighting**: Indicates the currently active plan.
+
+## Components
+
+- **ListPricing**: The main component that renders pricing cards based on the selected plan.
+- **PricingCard**: Displays details for each plan including price, description, and features.
+
+## Installation
+
+To install and run the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+
+2. Install the dependencies:
 ```bash
 npm run dev
 # or
@@ -14,23 +39,9 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contact
+For any questions or feedback, please contact:
 
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Name: Yefferson Silva
+- Email: yeffersonsilvagomez@gmail.com
+- GitHub: YeffersonSIlva
